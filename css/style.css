@@ -1,0 +1,193 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+body {
+	background-color: #1b1c1d;
+	color: #90caf9;
+}
+
+h1 h2 h3 h4 h5 {
+	color: #1b1c1d;
+}
+
+nav ul a,
+nav.brand-logo {
+  color: #1b1c1d;
+}
+
+li {
+	color: #1b1c1d;
+}
+
+p {
+  font-size: 1.25rem;
+  line-height: 2.5rem;
+  text-align: justify;
+}
+
+.button-collapse {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+.slider .indicators .indicator-item.active {
+    background-color: #90caf9;
+}
+
+.slider .indicators .indicator-item {
+    background-color: #606060;
+}
+
+.icon-block .material-icons {
+	font-size: 8rem;
+	color: #90caf9;
+}
+
+.counter-text-number {
+	font-family: 'Righteous';
+	font-size: 8rem;
+}
+
+.counter-text {
+	font-family: 'Righteous';
+	font-size: 2.5rem;
+}
+
+.btn-numberpitch {
+  width: 411px;
+  height: 40px;
+  font-size: 2em;
+  margin-top: 75px;
+}
+
+.vote-red {
+  background-color: #f44336;
+  width: 411px;
+  height: 411px;
+  border-radius: 50%;
+}
+
+.vote-orange {
+  background-color: #ffc400;
+  width: 411px;
+  height: 411px;
+  border-radius: 50%;
+}
+
+.vote-green {
+  background-color: #76ff03;
+  width: 411px;
+  height: 411px;
+  border-radius: 50%;
+}
+
+.text-vote {
+  margin-top: 150px;
+  text-align: center;
+  color: white;
+  font-family: 'Righteous';
+  font-size: 3em;
+}
+
+.thumb-vote {
+  color: white;
+}
+
+nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
+    height: 64px;
+    line-height: 64px;
+    color: white;
+}
+
+.navbar-fixed {
+position: fixed;
+right: 0;
+left: 0;
+top: 0;
+}
+
+.text-main-menu {
+  color: white;
+  font-size: 1.75em;
+}
+
+.text-main-side-nav {
+  color: white !important;
+  font-size: 2em !important;
+}
+
+.text-main-menu:hover {
+  color: #1b1c1d;
+  background-color: transparent;
+}
+
+.text-footer-menu {
+  color: white;
+}
+
+.text-footer-menu:hover {
+  color: #1b1c1d;
+  background-color: transparent;
+}
+
+.text-footer-menu:active {
+  color: #1b1c1d;
+  background-color: transparent;
+}
+
+.text-titre {
+  margin-top: 75px;
+}
+
+.dropdown-button.btn {
+    width: 600px;
+    height: 60px;
+    padding-top: 12px;
+    font-size: 2em;
+    z-index: 999;
+}
+
+.text-card {
+  color: #1b1c1d;
+}

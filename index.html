@@ -1,14 +1,383 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="utf-8">
-  <title>Titre de la page</title>
-  <link rel="stylesheet" href="style.css">
-  <script src="script.js"></script>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+  <title>Pitch Me Up</title>
+
+  <!-- CSS  -->
+  <link rel="stylesheet" href="css/fonts-awesome/font-awesome.min.css">
+  <link rel="stylesheet" href="css/fonts-social/socialicious.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
+
 <body>
-  ...
-  Hello, Test GH-Pages
-  ...
-</body>
+
+  <nav class="blue lighten-3 navbar-fixed" role="navigation">
+    <div class="nav-wrapper container">
+      <a id="logo-container" href="#" class="brand-logo">Pitch Me Up</a>
+      <ul class="right hide-on-med-and-down">
+        <li><a class="text-main-menu js-scrollTo" href="#about">About</a></li>
+        <li><a class="text-main-menu js-scrollTo" href="#start-up">Start-Up</a></li>
+        <li><a class="text-main-menu js-scrollTo" href="#">Timer</a></li>
+        <li><a class="text-main-menu js-scrollTo" href="#vote">Vote</a></li>
+        <li><a class="text-main-menu js-scrollTo" href="#"><i class="fa fa-envelope text-main-menu"></i></a></li>
+      </ul>
+
+      <ul id="nav-mobile" class="blue lighten-3 side-nav">
+        <li><a class="text-main-side-nav js-scrollTo" href="#about">About</a></li>
+        <li><a class="text-main-side-nav js-scrollTo" href="#start-up">Start-Up</a></li>
+        <li><a class="text-main-side-nav js-scrollTo" href="#timer">Timer</a></li>
+        <li><a class="text-main-side-nav js-scrollTo" href="#vote">Vote</a></li>
+        <li><a class="text-main-side-nav js-scrollTo" href="#contact">Contact</a></li>
+      </ul>
+      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+
+ <!-- <div id="index-banner" class="parallax-container">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <br><br>
+        <h1 class="header center blue-lighten-3-text text-lighten-2">Parallax Template</h1>
+        <div class="row center">
+          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+        </div>
+        <div class="row center">
+          <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light blue lighten-3 lighten-1">Get Started</a>
+        </div>
+        <br><br>
+
+      </div>
+    </div>
+    <div class="parallax"><img src="images/joker.jpg" alt="Unsplashed background img 1"></div>
+  </div> -->
+
+  <div class="slider">
+    <ul class="slides">
+      <li>
+        <img src="images/public2.jpg"> <!-- random image -->
+        <div class="caption center-align">
+          <h3>This is our big Tagline!</h3>
+          <div class="container">
+            <div class="row">
+              <div class="col s12 center">
+                <div class="col s6 center">
+                  <div class="card blue-grey darken-1">
+                    <div class="card-content white-text">
+                      <span class="card-title">Card Title</span>
+                        <p>I am a very simple card. I am good at containing small bits of information.
+                        I am convenient because I require little markup to use effectively.</p>
+                    </div>
+                    <div class="card-action">
+                      <a href="#">This is a link</a>
+                     <a href="#">This is a link</a>
+                   </div>
+                  </div>
+                </div>
+                <div class="col s6 center">
+                  <div class="card blue-grey darken-1">
+                    <div class="card-content white-text">
+                      <span class="card-title">Card Title</span>
+                        <p>I am a very simple card. I am good at containing small bits of information.
+                        I am convenient because I require little markup to use effectively.</p>
+                    </div>
+                    <div class="card-action">
+                      <a href="#">This is a link</a>
+                     <a href="#">This is a link</a>
+                   </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li>
+        <img src="images/public3.jpg"> <!-- random image -->
+        <div class="caption left-align">
+          <h3>Left Aligned Caption</h3>
+          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+        </div>
+      </li>
+      <li>
+        <img src="images/public2.jpg"> <!-- random image -->
+        <div class="caption right-align">
+          <h3>Right Aligned Caption</h3>
+          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+        </div>
+      </li>
+      <li>
+        <img src="images/public3.jpg"> <!-- random image -->
+        <div class="caption center-align">
+          <h3>This is our big Tagline!</h3>
+          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+        </div>
+      </li>
+    </ul>
+  </div>
+
+<section id="about">
+  <div class="">
+    <div class="section">
+    <div class="col s12 center">
+      <h3 class="text-titre">Pitch Me Up</h3>
+    </div>
+      <!--   Icon Section   -->
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center brown-text"><i class="material-icons">star</i></h2>
+            <h5 class="center">Le Concept</h5>
+
+            <p class="light">Pitch, oh mon pitch ! Un exercice permanent pour tous les porteurs de projet ! Lancez-vous sur scène pendant 5 minutes pour nous convaincre et donner le meilleur. Un jury vous donnera du feedback bienveillant et toujours constructif. Le public (de folie) vous posera plein de questions parce que vous aurez éveillé leur curiosité ! Mais surtout, c'est l'occasion de se réunir autour d'un apéro et de parler de son bébé à d'autres personnes qu'à sa grand-mère (qui n'a toujours pas compris, malgré 3 repas de Noël et 4 cousinades ... #soupir).</p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center brown-text"><i class="material-icons">people</i></h2>
+            <h5 class="center">Les X-Pairs</h5>
+
+            <p class="light">By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components and animations that provide more feedback to users. Additionally, a single underlying responsive system across all platforms allow for a more unified user experience.</p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center brown-text"><i class="material-icons">location_city</i></h2>
+            <h5 class="center">Les Lieux</h5>
+
+            <p class="light">We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="">
+        <div class="row center">
+          <div class="col s12 m4">
+            <span class="counter center counter-text-number" style="">25</span>
+            <p class="def center counter-text">Start Up ont Pitché</p>
+          </div>
+          <div class="col s12 m4">
+            <span class="counter center counter-text-number" style="">26</span>
+            <p class="def center counter-text">Marques vous sont proposées</p>
+          </div>
+          <div class="col s12 m4">
+            <span class="counter center counter-text-number" style="">26</span>
+            <p class="def center counter-text">Marques vous sont proposées</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="images/joker.jpg" alt="Unsplashed background img 2"></div>
+  </div>
+
+<section id="start-up">
+  <div class="container">
+    <div class="section">
+      <div class="row menu-scroll">
+        <div class="col s12 center">
+          <h3 class="text-titre">Les Start-Up</h3>
+          <h3>Pitch Me Up #5</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="card small">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="images/reverb-logo.jpg">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">Reverb<i class="material-icons right">more_vert</i></span>
+              <p><a href="https://reverb.re/">reverb.re</a></p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">Reverb<i class="material-icons right">close</i></span>
+              <p class="text-card">Reverb permet aux membres d'une association, aux salariés d'une entreprise ou aux fans d'une marque de retweeter automatiquement les messages les plus importants de l'association/marque/entreprise publiés sur les réseaux sociaux.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m4">
+          <div class="card small">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="images/public3.jpg">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">Eco Food<i class="material-icons right">more_vert</i></span>
+              <p><a href="https://www.linkedin.com/in/sacha-ba%C3%AFzet-1a3a8ba6?authType=name&authToken=CQSe&locale=fr_FR&srchid=1186244291463994592310&srchindex=1&srchtotal=11&trk=vsrp_people_res_name&trkInfo=VSRPsearchId%3A1186244291463994592310%2CVSRPtargetId%3A378907467%2CVSRPcmpt%3Aprimary%2CVSRPnm%3Afalse%2CauthType%3Aname">Eco Food Agency</a></p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">Eco Food Agency<i class="material-icons right">close</i></span>
+              <p class="text-card">Conseil aux restaurateurs pour la réduction du gaspillage alimentaire.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m4">
+          <div class="card small">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="images/diodart-logo.jpg">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">DiodArt<i class="material-icons right">more_vert</i></span>
+              <p><a href="http://www.diodart.com/">diodart.com</a></p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">DiodArt<i class="material-icons right">close</i></span>
+              <p class="text-card">Nous concevons des panneaux LED innovants personnalisables et faciles d'utilisation.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m4">
+          <div class="card small">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="images/public2.jpg">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">The Place to Make<i class="material-icons right">more_vert</i></span>
+              <p><a href="#">This is a link</a></p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">The Place to Make<i class="material-icons right">close</i></span>
+              <p class="text-card">Here is some more information about this product that is only revealed once clicked on.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m4">
+          <div class="card small">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="images/talkalang-logo.jpg">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">TalkaLang<i class="material-icons right">more_vert</i></span>
+              <p><a href="#">This is a link</a></p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+              <p class="text-card">Practice languages with partners
+              Immerse yourself in an online campus to meet partners sharing the same interests and helping each other!</p>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m4 center">
+          <a class="waves-effect waves-light btn center blue lighten-3 btn-numberpitch" href="pages/startup.html">En savoir Plus ...</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<div class="parallax-container valign-wrapper">
+  <div class="section no-pad-bot">
+    <div class="container">
+      <div class="row center">
+        <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+      </div>
+    </div>
+  </div>
+  <div class="parallax"><img src="images/joker.jpg" alt="Unsplashed background img 3"></div>
+</div>
+
+<section id="vote">
+  <div class="container">
+    <div class="row">
+      <div class="col s12 center">
+        <h3 class="text-titre">Le Vote</h3>
+      </div>
+      <div class="col s4 vote-red materialboxed center"><p class="text-vote">Ce n'est pas clair</p>
+        <i class="large material-icons thumb-vote">thumb_down</i></div>
+      <div class="col s4 vote-orange materialboxed center"><p class="text-vote">Je n'ai pas tout compris</p>
+        <i class="large material-icons thumb-vote">thumbs_up_down</i>
+      </div>
+      <div class="col s4 vote-green materialboxed center"><p class="text-vote">C'est clair</p>
+        <i class="large material-icons thumb-vote">thumb_up</i>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="parallax-container valign-wrapper">
+  <div class="section no-pad-bot">
+    <div class="container">
+      <div class="row center">
+        <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+      </div>
+    </div>
+  </div>
+  <div class="parallax"><img src="images/joker.jpg" alt="Unsplashed background img 3"></div>
+</div>
+
+  <footer class="page-footer blue lighten-3">
+    <div class="container">
+      <div class="row">
+        <div class="col l3 s12">
+          <h5 class="white-text">Connect</h5>
+          <ul>
+            <li><a class="text-footer-menu js-scrollTo" href="#about">About</a></li>
+            <li><a class="text-footer-menu js-scrollTo" href="#start-up">Start-Up</a></li>
+            <li><a class="text-footer-menu js-scrollTo" href="#">Timer</a></li>
+            <li><a class="text-footer-menu js-scrollTo" href="#vote">Vote</a></li>
+            <li><a class="text-footer-menu js-scrollTo" href="#vote"></a><i class="icon-2x icon-meetup"></i><small></small></li>
+            <li><a class="text-footer-menu js-scrollTo" href="#"><i class="fa fa-envelope"></i></a></li>
+          </ul>
+        </div>
+        <div class="col l6 s12">
+          <h5 class="white-text">Company Bio</h5>
+          <p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
+        </div>
+        <!--<div class="col l3 s12">
+          <h5 class="white-text">Settings</h5>
+          <ul>
+            <li><a class="white-text" href="#!"><i class="fa fa-asterisk"></i></a></li>
+            <li><a class="white-text" href="#!">Link 2</a></li>
+            <li><a class="white-text" href="#!">Link 3</a></li>
+            <li><a class="white-text" href="#!">Link 4</a></li>
+          </ul>
+        </div>-->
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+      Made by <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+      </div>
+    </div>
+  </footer>
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+
+  <script src="js/jquery.js"></script>
+  <script src="js/jquery.easing.min.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+
+  <script src="js/jquery.counterup.min.js"></script>
+
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+
+  <script type="text/javascript">
+  WebFontConfig = {
+    google: { families: [ 'Righteous::latin' ] }
+  };
+  (function() {
+    var wf = document.createElement('script');
+    wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+    wf.type = 'text/javascript';
+    wf.async = 'true';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(wf, s);
+  })(); </script>
+
+  </body>
 </html>
+
