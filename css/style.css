@@ -37,7 +37,7 @@ p {
 .parallax-container {
   min-height: 380px;
   line-height: 0;
-  height: auto;
+  height: 600px;
   color: rgba(255,255,255,.9);
 }
   .parallax-container .section {
@@ -183,6 +183,7 @@ top: 0;
 .dropdown-button.btn {
     width: 600px;
     height: 60px;
+    margin-top: 250px;
     padding-top: 12px;
     font-size: 2em;
     z-index: 999;
